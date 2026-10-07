@@ -1,0 +1,1 @@
+(function(F){F.Missions={TIERS:['TRAINING','STANDARD','ADVANCED','CAPTAIN'],MODES:['LEARN','LAB','MISSION'],complete(state,id){if(!state.missions.completed.includes(id))state.missions.completed.push(id)}}})(window.FlightLab=window.FlightLab||{});
